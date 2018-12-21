@@ -25,12 +25,10 @@ try:
                 rat = 2
         else:
                 rat = 0
-
         eci = ci[4]
         rsrp = ci[11]
         rssi = ci[12]
-        snr = ci[13]
-        snr = snr.rstrip("\n\r")
+        snr = ci[13].rstrip("\n\r")
         print("")
         print("****************** SIMCOM Cell Info ******************")
         print("")
